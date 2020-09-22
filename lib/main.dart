@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:mesio_map_view/map_view.dart';
 import 'package:mesio_map_view/utils/colors.dart';
@@ -10,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'MAP VIEW',
       theme: ThemeData(
         primarySwatch: PRIMARY_COLOR,
